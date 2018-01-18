@@ -34,7 +34,7 @@ São Paulo, Brazil/Garrison, NY
 The Hudson Center for Health Equity and Quality, Administrative Coordinator, Health Home Associate 6/2013–9/2015, 9/2015–5/2016
 Tarrytown, NY
 * Project management for features/bug fixes, sprint planning, and QA/testing in an Agile cycle for a security-focused healthcare web app
-* Owned, managed, and produced high-quality user documentation for internally developed software
+* Managed support queue to ensure we met our SLA and kept the clients informed of progress, including for critical incidents
 * Primary point of contact for all second tier bug reports, feature requests, and user training opportunities
 * Quickly established strong rapport with managers at customer sites
 * Primary, direct liaison between development team and users as well as development team and management
@@ -52,7 +52,7 @@ Hudson River Healthcare, Summer Intern
 Peekskill, NY
 * Implemented an online staﬀ training system, including technical support and troubleshooting
 Volunteer. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-Eastern Cooperative Recreation School, Technology Consultant, Board Member & Committee Chair
+Eastern Cooperative Recreation School, Leader, Technology Consultant, Board Member & Committee Chair
 2013–Present, 2016–Present
 * Spearheaded design/implementation of new website, to allow online event registration and payment
 
