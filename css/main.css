@@ -1,8 +1,10 @@
-body.dark {
+body {
 	background: #272822;
 	color: #f8f8f2;
 	margin: 5% 10%;
 	font-size: calc(.8em + 2vw);
+	transition: color ease 1s;
+	transition: background-color ease 2s;
 }
 
 .content {
@@ -77,4 +79,48 @@ a.contact {
 	opacity: .7;
 	color: #A6E22E;
 	transform: scale(1.07);
+}
+
+.theme-toggle {
+	margin-top: 2em;
+}
+
+.theme-toggle .button {
+	background: #111111;
+	font-size: .8em;
+	padding: 1%;
+	width: 30%;
+	margin: auto;
+}
+
+.theme-toggle .button:after {
+	content: "Dark Theme";
+	transition: all .5s ease;
+}
+
+.theme-toggle.light .button:after {
+	content: "Light Theme";
+}
+
+.invert {
+	filter: invert(100%);
+}
+
+.light-background {
+	background: #cecece;
+	transition: color ease 1s;
+	transition: background-color ease 2s;
+}
+
+.dark-background {
+	background: #080808;
+	/* transition: all ease 1s; */
+}
+
+.dark-text {
+	color: #080808;
+}
+
+.light-text {
+	color: #cecece;
 }
