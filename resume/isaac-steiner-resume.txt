@@ -12,7 +12,7 @@ isteiner.com
 	Education
   
 
-Harvard University Extension School, Master of Liberal Arts
+Harvard Extension School, Master of Liberal Arts
 Concentration: Information Management Systems
 Graduated: March 2017
 
@@ -22,6 +22,18 @@ Major: Communicative Disorders and Sciences
 Minor: Computer Applications
 Graduated: December 2011
 
+
+Key Skills
+* Windows support
+* Linux (Debian)
+* Technical/non-technical audience communication
+	* Python
+* VBA
+* Bash
+	* SQL (T-SQL, Oracle, MySQL)
+* AWS
+* TCP/IP networking fundamentals
+	
 
 Experience
   
@@ -33,11 +45,11 @@ São Paulo, Brazil/Garrison, NY
 * Built a web platform for the secure transfer, transcoding, and encryption of radiological (DICOM) images
 The Hudson Center for Health Equity and Quality, Administrative Coordinator, Health Home Associate 6/2013–9/2015, 9/2015–5/2016
 Tarrytown, NY
-* Project management for features/bug fixes, sprint planning, and QA/testing in an Agile cycle for a security-focused healthcare web app
-* Managed support queue to ensure we met our SLA and kept the clients informed of progress, including for critical incidents
+* Provided clear, eﬀective application and Windows support for end users
+* Worked with development team to perform root cause analysis of critical incidents and bugs
 * Primary point of contact for all second tier bug reports, feature requests, and user training opportunities
-* Quickly established strong rapport with managers at customer sites
 * Primary, direct liaison between development team and users as well as development team and management
+* Rapidly became the product expert for multiple internally developed and third-party applications in order to provide both QA and support
 Hudson Health Plan, Junior Data Analyst
 1/2013–6/2013
 Tarrytown, NY
@@ -50,15 +62,8 @@ Rochester, NY
 Hudson River Healthcare, Summer Intern
 2010,2011
 Peekskill, NY
-* Implemented an online staﬀ training system, including technical support and troubleshooting
+*  Rapidly learned new hardware and software products in order to conduct training and provide support
 Volunteer. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 Eastern Cooperative Recreation School, Leader, Technology Consultant, Board Member & Committee Chair
 2013–Present, 2016–Present
 * Spearheaded design/implementation of new website, to allow online event registration and payment
-
-
-Languages
-  
-
-English: Native language
-Spanish: Intermediate
