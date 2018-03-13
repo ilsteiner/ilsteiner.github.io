@@ -94,12 +94,12 @@ a.contact {
 }
 
 .theme-toggle .button:after {
-	content: "Dark Theme";
+	content: "Switch to Light Theme";
 	transition: all .5s ease;
 }
 
 .theme-toggle.light .button:after {
-	content: "Light Theme";
+	content: "Switch to Dark Theme";
 }
 
 .invert {
