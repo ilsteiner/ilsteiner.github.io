@@ -25,14 +25,14 @@ Graduated: December 2011
 
 Key Skills
 * Windows support
-* Linux (Debian)
+* Remote desktop support
 * Technical/non-technical audience communication
-	* Python
+	* MS Office Suite
 * VBA
-* Bash
+* Managing PHI in HIPAA regulated environment
 	* SQL (T-SQL, Oracle, MySQL)
-* AWS
 * TCP/IP networking fundamentals
+* User training
 	
 
 Experience
@@ -53,7 +53,7 @@ Tarrytown, NY
 Hudson Health Plan, Junior Data Analyst
 1/2013–6/2013
 Tarrytown, NY
-* Managed receipt and processing of sensitive medical data required for state/federal compliance audits
+* Managed PHI receipt and processing from external medical organizations for HEDIS and QARR compliance
 * Acted as liaison between clinical staﬀ and IT analysts
 Frontier Communications, Special Accounts Representative
 1/2012–5/2012
