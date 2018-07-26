@@ -21,6 +21,11 @@ body {
 	transition: all .2s ease;
 }
 
+/*Hide the resume section*/
+.resume {
+	display: none;
+}
+
 .resume .button {
 	font-size: 1em;
 	margin-top: .8em;
