@@ -130,7 +130,15 @@ a.contact {
 	color: #cecece;
 }
 
-iframe {
-	border: 0;
+.badge {
+	max-width: 200px;
+	max-height: 200px;
+	height: auto;
+	width: auto;
 	margin-top: 20%;
+	transition: all ease 1s;
+}
+
+.badge:empty {
+	display: inline-block;
 }
