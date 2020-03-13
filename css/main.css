@@ -22,9 +22,9 @@ body {
 }
 
 /*Hide the resume section*/
-.resume {
+/* .resume {
 	display: none;
-}
+} */
 
 .resume .button {
 	font-size: 1em;
