@@ -29,6 +29,7 @@ body {
 .resume .button {
 	font-size: 1em;
 	margin-top: .8em;
+	max-width: 65%;
 }
 
 .resume .button a, .name {
