@@ -50,6 +50,10 @@ body {
 	transform: scale(1.07);
 }
 
+.dropdown-toggle.btn-outline-light:hover, .dropdown-toggle.btn-outline-light#dropdownMenuButton {
+	background: none;
+}
+
 .dropdown-item:hover {
 	background: none;
 }
@@ -91,10 +95,11 @@ a.contact {
 	transition: all .5s ease;
 }
 
-.contact i:hover {
+.contact i:hover, .dropdown-toggle.btn-outline-light:hover, .dropdown.show>.dropdown-toggle.btn-outline-light#dropdownMenuButton  {
 	opacity: .7;
 	color: #A6E22E;
 	transform: scale(1.07);
+	border-color: #A6E22E;
 }
 
 .theme-toggle, .dropdown {
