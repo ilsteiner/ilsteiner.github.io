@@ -44,22 +44,25 @@ body {
 	transition: all .4s ease;
 }
 
-.button:hover {
+.button:hover, .dropdown-item:hover {
 	cursor: pointer;
 	opacity: .75;
 	transform: scale(1.07);
 }
 
-.pdf {
-	background: #7f0404;
+.dropdown-item:hover {
+	background: none;
 }
 
-.word {
-	background: #395393;
+.pdf, .fa-file-pdf-o {
+	color: #7f0404;
 }
 
-.text {
-	background: #cecece;
+.word, .fa-file-word-o {
+	color: #395393;
+}
+
+.text, .fa-file-text-o {
 	color: #1c1d18;
 }
 
@@ -104,6 +107,11 @@ a.contact {
 	padding: 1%;
 	width: 30%;
 	margin: auto;
+}
+
+.dark-text .theme-toggle .button, .dark-text .dropdown .button {
+	border-color: #080808;
+	color: #080808;
 }
 
 .theme-toggle .button:after {
