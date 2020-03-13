@@ -3,8 +3,6 @@ Phone:
 631-406-9666
 	Email:
 isaac@isteiner.com
-	Github:
-github.com/ilsteiner
 	LinkedIn:
 linkedin.com/in/isaacls
 	Website:
@@ -25,43 +23,54 @@ Graduated: December 2011
 
 Key Skills
 * C#
-* PHP
-* JavaScript
-	* Relational database systems
-* Object oriented programming
-* Application/network security
-	* Search engine optimization
-* HTML5 and CSS3
-* Rapid acquisition of new skills
+* Dynamics CRM
+* CDS
+	* .NET framework
+* Power Platform
+* Azure and AAD
+	* Written/verbal communication
+* Collaboration across teams
+* Mentoring/teaching new skills
 	Experience
   
 
 Professional. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Infosys Ltd., Senior Associate
+10/2018–Present
+Redmond, Washington
+* Provide high-quality business solutions, analysis, and technical support for Dynamics 365 CRM Online customers
+* Collaborate with development teams to resolve misconfigurations, product gaps across all Dynamics CRM modules
+* Noted subject matter expert in the Marketing App and general performance issues in Dynamics 365, providing ad-hoc assistance and facilitating an effective intrateam training cadence
+* Work with development teams and management to drive product, process, and reporting improvements to increase supportability and improve KPIs in my areas of expertise
+
+
+Revature, Dynamics 365 CRM Consultant
+7/2018–10/2018
+New York, New York
+* Project development in C#, .NET, HTML, CSS, JavaScript, and Bootstrap in a Dynamics CRM environment
+* Team lead for a project including development of custom plugins and workflows
+
+
 DicomSec, Co-Founder
 9/2016–10/2017
-São Paulo, Brazil/Garrison, NY
-* Built a web platform for the secure transfer, transcoding, and encryption of radiological (DICOM) images
+São Paulo, Brazil
+
+
 The Hudson Center for Health Equity and Quality, Administrative Coordinator, Health Home Associate 6/2013–9/2015, 9/2015–5/2016
-Tarrytown, NY
-* Worked with development team to perform root cause analysis of critical incidents and bugs
-* Business analysis of client requirements and State regulatory changes in a HIPAA regulated environment
-* Initiated project and built Wordpress site using customized theme, including content migration and solicitation
-* Primary, direct liaison between development team and users as well as development team and management
-* Rapidly became the product expert for multiple internally developed and third-party applications in order to provide both QA and support
+Tarrytown, New York
+
+
 Hudson Health Plan, Junior Data Analyst
 1/2013–6/2013
-Tarrytown, NY
-* Acted as liaison between clinical staﬀ and IT analysts
-* Assisted with QA on internally developed software
+Tarrytown, New York
+
+
 Frontier Communications, Special Accounts Representative
 1/2012–5/2012
-Rochester, NY
-* In a B2B call-center environment, translated customer requests into tickets/work-orders for a telephone provider
-Hudson River Healthcare, Summer Intern
-2010,2011
-Peekskill, NY
-*  Implemented an online staﬀ training system, including technical support and troubleshooting
+Rochester, New York
+
+
 Volunteer. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-Eastern Cooperative Recreation School, Leader, Technology Consultant, Board Member & Committee Chair
-2013–Present, 2016–Present
-* Spearheaded design/implementation of new website, to allow online event registration and payment
+Eastern Cooperative Recreation School, Technology Consultant, Board Chair
+2013–Present, 2019–Present
+* Drive strategic, tactical, and operational decision making in collaboration with our 100% remote executive board
