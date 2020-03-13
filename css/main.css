@@ -29,8 +29,6 @@ body {
 .resume .button {
 	font-size: 1em;
 	margin-top: .8em;
-	max-width: 60%;
-	margin-left: 20%;
 }
 
 .resume .button a, .name {
@@ -40,9 +38,9 @@ body {
 .button {
 	padding: 5% 10%;
 	overflow: hidden;
-	-webkit-border-radius: 40vw;
+	/* -webkit-border-radius: 40vw;
     -moz-border-radius: 40vw;
-	border-radius: 40vw;
+	border-radius: 40vw; */
 	transition: all .4s ease;
 }
 
@@ -70,6 +68,14 @@ body {
 	color: inherit;
 }
 
+.resume .dropdown-item {
+	font-size: 2em;
+}
+
+.resume .dropdown-menu {
+	width: 31%;
+}
+
 a.contact {
 	font-size: calc(.2em + 2vw);
 	text-decoration: none;
@@ -88,12 +94,12 @@ a.contact {
 	transform: scale(1.07);
 }
 
-.theme-toggle {
-	margin-top: 2em;
+.theme-toggle, .dropdown {
+	margin-top: 1.8em;
 }
 
-.theme-toggle .button {
-	background: #111111;
+.theme-toggle .button, .dropdown .button {
+	/* background: #111111; */
 	font-size: .8em;
 	padding: 1%;
 	width: 30%;
@@ -103,6 +109,7 @@ a.contact {
 .theme-toggle .button:after {
 	content: "Switch to Light Theme";
 	transition: all .5s ease;
+	transition: font-color 0s;
 }
 
 .theme-toggle.light .button:after {
