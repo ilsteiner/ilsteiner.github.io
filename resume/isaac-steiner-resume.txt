@@ -1,76 +1,51 @@
-ï»¿Isaac Steiner
-Phone:
-631-406-9666
-	Email:
-isaac@isteiner.com
-	LinkedIn:
-linkedin.com/in/isaacls
-	Website:
-isteiner.com
-	Education
-  
+Isaac Steiner
+SOFTWARE DEVLOPER  *  DYNAMICS 365 CONSULTANT
+Redmond, WA
+? 631-406-9666 | ? isaac@isteiner.com | ? www.isteiner.com | ? isaacls
 
-Harvard Extension School, Master of Liberal Arts
-Concentration: Information Management Systems
-Graduated: March 2017
+Education  	
+Harvard Extension School	Cambridge, MA
+MASTER OF LIBERAL ARTS - INFORMATION MANAGEMENT SYSTEMS	March 2017
+
+State University of New York at Geneseo	Geneseo, NY
+BACHELOR OF SCIENCE - MAJOR: COMMUNICATIVE DISORDERS AND SCIENCES, MINOR: COMPUTER APPLICATIONS	December 2011
 
 
-State University of New York at Geneseo, Bachelor of Science, Deansâ€™s List: Fall 2010
-Major: Communicative Disorders and Sciences
-Minor: Computer Applications
-Graduated: December 2011
+Skills  	
+Languages	C#, JavaScript, Python, HTML, CSS, LaTeX
+Platforms	.NET framework, Common Data Service (CDS), Power Platform, Azure, Azure Active Directory (AAD)
+Dynamics 365	Sales, Service, Marketing, Plugins, Customization
+Professional Experience  	
+Infosys Ltd.	Redmond, Washington
+SENIOR ASSOCIATE	10/2018 - Present
+•	Provide high-quality business solutions, analysis, and technical support for Dynamics 365 CRM Online customers
+•	Collaborate with development teams to resolve misconfigurations, product gaps across all Dynamics CRM modules
+•	Noted subject matter expert in the Marketing App and general performance issues in Dynamics 365, providing ad-hoc assistance and facilitating 
+an effective intrateam training cadence
+•	Workwithdevelopmentteamsandmanagementtodriveproduct, process, andreportingimprovements toincrease supportabilityandimprove 
+KPIs in my areas of expertise
+Revature	New York, New York
+DYNAMICS 365 CRM CONSULTANT	7/2018 - 10/2018
+•	Project development in C#, .NET, HTML, CSS, JavaScript, and Bootstrap in a Dynamics CRM environment
+•	Team lead for a project including development of custom plugins and workflows
+DicomSec	São Paulo, Brazil
+CO-FOUNDER	9/2016 - 7/2017
+
+The Hudson Center for Health Equity and Quality	Tarrytown, New York
+ADMINISTRATIVE COORDINATOR, HEALTH HOME ASSOCIATE	6/2013 - 9/2015, 9/2015 - 5/2016
+
+Hudson Health Plan	Tarrytown, New York
+JUNIOR DATA ANALYST	1/2013 - 6/2013
+
+Frontier Communications	Rochester, New York
+SPECIAL ACCOUNTS REPRESENTATIVE	1/2012 - 5/2012
 
 
-Key Skills
-* C#
-* Dynamics CRM
-* CDS
-	* .NET framework
-* Power Platform
-* Azure and AAD
-	* Written/verbal communication
-* Collaboration across teams
-* Mentoring/teaching new skills
-	Experience
-  
-
-Professional. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-Infosys Ltd., Senior Associate
-10/2018â€“Present
-Redmond, Washington
-* Provide high-quality business solutions, analysis, and technical support for Dynamics 365 CRM Online customers
-* Collaborate with development teams to resolve misconfigurations, product gaps across all Dynamics CRM modules
-* Noted subject matter expert in the Marketing App and general performance issues in Dynamics 365, providing ad-hoc assistance and facilitating an effective intrateam training cadence
-* Work with development teams and management to drive product, process, and reporting improvements to increase supportability and improve KPIs in my areas of expertise
-
-
-Revature, Dynamics 365 CRM Consultant
-7/2018â€“10/2018
-New York, New York
-* Project development in C#, .NET, HTML, CSS, JavaScript, and Bootstrap in a Dynamics CRM environment
-* Team lead for a project including development of custom plugins and workflows
-
-
-DicomSec, Co-Founder
-9/2016â€“10/2017
-SÃ£o Paulo, Brazil
-
-
-The Hudson Center for Health Equity and Quality, Administrative Coordinator, Health Home Associate 6/2013â€“9/2015, 9/2015â€“5/2016
-Tarrytown, New York
-
-
-Hudson Health Plan, Junior Data Analyst
-1/2013â€“6/2013
-Tarrytown, New York
-
-
-Frontier Communications, Special Accounts Representative
-1/2012â€“5/2012
-Rochester, New York
-
-
-Volunteer. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-Eastern Cooperative Recreation School, Technology Consultant, Board Chair
-2013â€“Present, 2019â€“Present
-* Drive strategic, tactical, and operational decision making in collaboration with our 100% remote executive board
+Volunteer Experience  	
+EASTERN COOPERATIVE RECREATION SCHOOL (ECRS)
+BOARD CHAIR	2019 - Present
+•	Drive strategic, tactical, and operational decision making in collaboration with our 100% remote executive board
+TECHNOLOGY CONSULTANT	2013 - Present
+•	Configure and support website, marketing, and data management tools for day-to-day operations and event management
+IMPROV THEATER TEACHER	2012 - Present
+•	Lead inclusive, confidence and community building improv workshops for beginner and intermediate participants
