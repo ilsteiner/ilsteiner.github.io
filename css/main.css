@@ -227,6 +227,25 @@ body {
     border-radius: 2px;
 }
 
+@media (max-width: 600px) {
+    .bg-icon {
+        width: clamp(55px, 14vw, 90px);
+        height: clamp(55px, 14vw, 90px);
+    }
+
+    .contact-links a {
+        padding: 0.5rem;
+    }
+}
+
+/* Hide mid-screen icons when viewport is narrow OR short (dev tools, landscape, small windows) */
+@media (max-width: 600px), (max-height: 650px) {
+    .icon-bi,
+    .icon-devops {
+        display: none;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
         transition: none !important;
