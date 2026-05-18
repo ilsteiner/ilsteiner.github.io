@@ -1,35 +1,27 @@
-$(".theme-toggle .button").click( function() {
-    $("body").toggleClass("light-background");
-    $("body").toggleClass("dark-text");
-
-    $(".pdf, .word, .theme-toggle").toggleClass("light-text");
-    $(".theme-toggle").toggleClass("light");
-    $("a.contact, .text").toggleClass("invert");
-});
-
-$("#PDF").click( function()  {
-    ga('send', {
-        hitType: 'event',
-        eventCategory: 'Resume',
-        eventAction: 'download',
-        eventLabel: 'PDF'
+document.querySelectorAll('.bg-icon').forEach(icon => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        icon.classList.add('settled');
+        return;
+    }
+    let count = 0;
+    icon.addEventListener('animationend', () => {
+        if (++count >= 2) icon.classList.add('settled');
     });
 });
 
-$("#Word").click(function () {
-    ga('send', {
-        hitType: 'event',
-        eventCategory: 'Resume',
-        eventAction: 'download',
-        eventLabel: 'Word'
-    });
+const toggle = document.querySelector('.theme-toggle');
+const root = document.documentElement;
+
+function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    toggle.textContent = theme === 'light' ? 'Switch to Dark Theme' : 'Switch to Light Theme';
+}
+
+toggle.addEventListener('click', () => {
+    const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    applyTheme(next);
+    localStorage.setItem('theme', next);
 });
 
-$("#Text").click(function () {
-    ga('send', {
-        hitType: 'event',
-        eventCategory: 'Resume',
-        eventAction: 'download',
-        eventLabel: 'Text'
-    });
-});
+const saved = localStorage.getItem('theme');
+if (saved) applyTheme(saved);

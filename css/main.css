@@ -1,166 +1,235 @@
-body {
-	background: #272822;
-	color: #f8f8f2;
-	margin: 5% 10%;
-	font-size: calc(.8em + 2vw);
-	transition: color ease 1s;
-	transition: background-color ease 2s;
+:root {
+    --bg: #272822;
+    --text: #f8f8f2;
+    --text-muted: rgba(248, 248, 242, 0.60);
+    --accent: #A6E22E;
+    --accent-glow: rgba(166, 226, 46, 0.35);
+    --border: rgba(248, 248, 242, 0.15);
+    --btn-hover-bg: rgba(166, 226, 46, 0.07);
+    --highlight: #AE81FF;
+    --icon-opacity: 0.05;
 }
 
-.content {
-	text-align: center;
-	font-family: 'Saira Extra Condensed', sans-serif;
+[data-theme="light"] {
+    --bg: #f5f5ef;
+    --text: #272822;
+    --text-muted: rgba(39, 40, 34, 0.60);
+    --accent: #5a8700;
+    --accent-glow: rgba(90, 135, 0, 0.25);
+    --border: rgba(39, 40, 34, 0.18);
+    --btn-hover-bg: rgba(90, 135, 0, 0.07);
+    --highlight: #7c3aed;
+    --icon-opacity: 0.07;
+}
+
+/* Keyframes */
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes icon-arrive {
+    0% {
+        opacity: 0;
+        color: var(--brand-color);
+        transform: translateX(var(--slide-x)) rotate(calc(var(--rot) * -1));
+    }
+    45%, 100% {
+        opacity: calc(var(--icon-opacity) * 2.5);
+        color: var(--brand-color);
+        transform: translateX(0) rotate(var(--rot));
+    }
+}
+
+@keyframes icon-settle {
+    from { color: var(--brand-color); }
+    to   { color: var(--text); }
+}
+
+/* Background icon layer */
+.bg-icons {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.bg-icon {
+    position: absolute;
+    width: clamp(100px, 12vw, 160px);
+    height: clamp(100px, 12vw, 160px);
+    color: var(--text);
+    opacity: var(--icon-opacity);
+    animation: icon-arrive 1.4s ease-out both, icon-settle 2s ease-in-out both;
+}
+
+.bg-icon.settled {
+    animation: none;
+    color: var(--text);
+    opacity: calc(var(--icon-opacity) * 2.5);
+    transition: transform 0.35s ease, color 0.35s ease, opacity 0.35s ease;
+}
+
+.bg-icon.settled:has(a:hover) {
+    transform: rotate(0deg);
+    color: var(--brand-color);
+    opacity: 0.8;
+}
+
+.bg-icon a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    pointer-events: auto;
+    color: inherit;
+    text-decoration: none;
+}
+
+.bg-icon a::after {
+    content: attr(data-label);
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.bg-icon a:hover::after {
+    opacity: 1;
+}
+
+.bg-icon svg {
+    fill: currentColor;
+    width: 100%;
+    height: 100%;
+    pointer-events: visibleFill;
+}
+
+.icon-azure    { --rot: -8deg; --slide-x: -50px; --brand-color: #0078D4; top: 6%;     left: 3%;   transform: rotate(-8deg);  animation-delay: 0.65s, 2.3s; }
+.icon-automate { --rot: 10deg; --slide-x:  50px; --brand-color: #2196F3; top: 11%;    right: 13%; transform: rotate(10deg);  animation-delay: 0.8s,  2.3s; }
+.icon-bi       { --rot: -4deg; --slide-x: -50px; --brand-color: #F2C811; top: 49%;    left: 9%;   transform: rotate(-4deg);  animation-delay: 0.95s, 2.3s; }
+.icon-devops   { --rot: 5deg;  --slide-x:  50px; --brand-color: #0078D7; top: 44%;    right: 4%;  transform: rotate(5deg);   animation-delay: 1.1s,  2.3s; }
+.icon-dynamics { --rot: 7deg;  --slide-x: -50px; --brand-color: #106EBE; bottom: 9%;  left: 2%;   transform: rotate(7deg);   animation-delay: 1.25s, 2.3s; }
+.icon-apps     { --rot: -6deg; --slide-x:  50px; --brand-color: #742774; bottom: 12%; right: 7%;  transform: rotate(-6deg);  animation-delay: 1.4s,  2.3s; }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
 }
 
 .name {
-	font-size: 3em;
+    font-size: clamp(2.5rem, 10vw, 4.5rem);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    margin: 0 0 0.6rem;
+    line-height: 1.05;
+    animation: fade-up 0.5s ease-out both;
 }
 
-.description {
-	font-size: .8em;
-	transition: all .2s ease;
+.highlight {
+    color: var(--highlight);
 }
 
-/*Hide the resume section*/
-/* .resume {
-	display: none;
-} */
-
-.resume .button {
-	font-size: 1em;
-	margin-top: .8em;
+.tagline {
+    font-size: clamp(0.875rem, 2.5vw, 1.05rem);
+    color: var(--text-muted);
+    font-weight: 300;
+    margin: 0 0 2.5rem;
+    line-height: 1.5;
+    animation: fade-up 0.5s ease-out 0.12s both;
 }
 
-.resume .button a, .name {
-	transition: all .5s ease;
+/* Contact icons */
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+    margin-bottom: 2.75rem;
+    padding: 0;
+    animation: fade-up 0.5s ease-out 0.24s both;
 }
 
-.button {
-	padding: 5% 10%;
-	overflow: hidden;
-	/* -webkit-border-radius: 40vw;
-    -moz-border-radius: 40vw;
-	border-radius: 40vw; */
-	transition: all .4s ease;
+.contact-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 1.75rem;
+    display: inline-flex;
+    transition: color 0.25s ease, transform 0.25s ease, filter 0.25s ease;
 }
 
-.button:hover, .dropdown-item:hover {
-	cursor: pointer;
-	opacity: .75;
-	transform: scale(1.07);
+.contact-links a:hover {
+    color: var(--accent);
+    transform: scale(1.12);
+    filter: drop-shadow(0 0 8px var(--accent-glow));
 }
 
-.dropdown-toggle.btn-outline-light:hover, .dropdown-toggle.btn-outline-light#dropdownMenuButton {
-	background: none;
+/* Theme toggle */
+.theme-toggle {
+    font-family: inherit;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 0.2s ease;
+    animation: fade-up 0.5s ease-out 0.34s both;
 }
 
-.dropdown-item:hover {
-	background: none;
+.theme-toggle:hover {
+    color: var(--text);
 }
 
-.pdf, .fa-file-pdf-o {
-	color: #7f0404;
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
 }
 
-.word, .fa-file-word-o {
-	color: #395393;
-}
-
-.text, .fa-file-text-o {
-	color: #1c1d18;
-}
-
-.resume a {
-	text-decoration: none;
-	color: inherit;
-}
-
-.resume .dropdown-item {
-	font-size: 2em;
-}
-
-.resume .dropdown-menu {
-	width: 31%;
-}
-
-a.contact {
-	font-size: calc(.2em + 2vw);
-	text-decoration: none;
-	color: #cecece9c;
-	font-weight: 100;
-}
-
-.contact i {
-	font-size: 2em;
-	transition: all .5s ease;
-}
-
-.contact i:hover, .dropdown-toggle.btn-outline-light:hover, .dropdown.show>.dropdown-toggle.btn-outline-light#dropdownMenuButton  {
-	opacity: .7;
-	color: #A6E22E;
-	transform: scale(1.07);
-	border-color: #A6E22E;
-}
-
-.theme-toggle, .dropdown {
-	margin-top: 1.8em;
-}
-
-.theme-toggle .button, .dropdown .button {
-	/* background: #111111; */
-	font-size: .8em;
-	padding: 1%;
-	width: 30%;
-	margin: auto;
-}
-
-.dark-text .theme-toggle .button, .dark-text .dropdown .button {
-	border-color: #080808;
-	color: #080808;
-}
-
-.theme-toggle .button:after {
-	content: "Switch to Light Theme";
-	transition: all .5s ease;
-	transition: font-color 0s;
-}
-
-.theme-toggle.light .button:after {
-	content: "Switch to Dark Theme";
-}
-
-.invert {
-	filter: invert(100%);
-}
-
-.light-background {
-	background: #cecece;
-	transition: color ease 1s;
-	transition: background-color ease 2s;
-}
-
-.dark-background {
-	background: #080808;
-	/* transition: all ease 1s; */
-}
-
-.dark-text {
-	color: #080808;
-}
-
-.light-text {
-	color: #cecece;
-}
-
-.badge {
-	max-width: 200px;
-	max-height: 200px;
-	height: auto;
-	width: auto;
-	margin-top: 20%;
-	transition: all ease 1s;
-}
-
-.badge:empty {
-	display: inline-block;
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        transition: none !important;
+        animation: none !important;
+    }
 }
