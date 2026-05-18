@@ -1,64 +1,0 @@
-Technical Expertise
-* C#
-* Java
-* JavaScript
-* Python
-* SQL
-* Kusto Query Language (KQL)
-* HTML
-* CSS* .NET framework
-* Bootstrap
-* Common Data Service
-* Power Platform
-* Azure
-* Azure Active Directory
-* Power Automate
-* Dynamics 365 CRM* Linux (Ubuntu, Arch)
-* Visual Studio
-* Visual Studio Code
-* Git/GitHub
-* Azure DevOps
-* Hyper-V
-* Agile methodology
-* IcMProfessional Experience
-Infosys Ltd. (Microsoft Corporation) | Redmond, WA
-Senior AssociateOctober 2018 — Present* Troubleshoot complex internal/external customer challenges spanning multiple integrated Microsoft services with a focus on the Dynamics 365 CRM ecosystem
-* Identify and collaborate with feature owning product teams to drive resolution of issues
-* Primary point of escalation within a geographically diverse support team, resolving technical and interpersonal roadblocks both internal and external to Microsoft
-* Collaborate across development/management teams driving product, process, and reporting improvements
-* Design and build automation to reduce manual effort and toil
-* Transfer knowledge by onboarding new hires and designing/presenting training material for the globally distributed team
-Revature | New York, NY
-Dynamics 365 CRM ConsultantJuly 2018 — October 2018* Project development in C#, SQL, .NET, HTML, CSS, JavaScript/jQuery, and Bootstrap in a Dynamics CRM environment
-* Team lead for an Agile project including development of custom Dynamics plugins, workflows, and RESTful APIs
-DicomSec | São Paulo, Brazil
-Co-FounderSeptember 2016 — July 2017* Built a web platform for the secure transfer, transcoding, and encryption of radiological (DICOM) images
-* Identified over 1500 DICOM servers accessible over the public Internet
-* Led research effort into HIPAA regulatory compliance and enforcement
-
-HCHEQ | Tarrytown, NY
-Administrative Coordinator/Health Home AssociateJune 2013 — May 2016* Provided clear, e?ective application and Windows support for end users
-* Worked with development team to perform root cause analysis of critical incidents and bugs
-* Primary point of contact for all second tier bug reports, feature requests, and user training opportunities
-* Primary, direct liaison between development team and users as well as development team and management
-* Rapidly became the product expert for multiple internally developed and third-party applications to provide both QA and support
-Hudson Health Plan | Tarrytown, NY
-Junior Data AnalystJanuary 2013 — June 2013* Managed PHI receipt and processing from external medical organizations for HEDIS and QARR compliance
-* Acted as liaison between clinical sta? and IT analysts
-* Provided application support on multiple applications by phone and email
-* Produced high-quality documentation for specific applications
-* Assisted in development of streamlined processes for data receipt and processing
-* QA and UAT for internally produced software
-* Produced reports to show QARR and HEDIS compliance
-Frontier Communications | Rochester, NY
-Special Accounts RepresentativeJanuary 2012 — May 2012* In a B2B call-center environment, translated customer (CLEC) requests into tickets/work-orders for a telephone (POTS) providerEducation
-Harvard University Extension School, Master of Liberal Arts, Information Management Systems, 2017
-SUNY Geneseo, Communicative Disorders and Sciences/Computer Applications, 2011
-Volunteer
-Eastern Cooperative Recreation School
-Board Chair2019 — Present* Drive strategic, tactical, and operational decision making in collaboration with our 100% remote executive boardTechnology Consultant2013 — Present* Configure and support website, marketing, and data management tools for day-to-day operations and event managementImprov Theater Teacher2012 — Present* Lead inclusive, confidence and community building improv workshops for beginner and intermediate participants
-
-
-0Isaac Steiner
-Redmond, WAilebwohlsteiner@gmail.com845-803-0238
-
